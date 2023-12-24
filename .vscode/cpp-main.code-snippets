@@ -1,0 +1,32 @@
+{
+  "cpp_main_snippet": {
+    "prefix": "cpp_main",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "#define IOS                         \\",
+      "  ios_base::sync_with_stdio(false); \\",
+      "  cin.tie(NULL);                    \\",
+      "  cout.tie(NULL);",
+      "",
+      "#define FIO freopen(\"input.txt\", \"r\", stdin);",
+      // "  // freopen(\"output.txt\", \"w\", stdout);",
+
+      "",
+      "void sol() {",
+      "  ",
+      "  return;",
+      "}",
+
+      "",
+      "int main(int argc, char const *argv[]) {",
+      "  IOS;",
+      "  FIO;",
+      "  ",
+      "  return 0;",
+      "}"
+    ],
+    "description": "cpp_main_snippet"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "main_snippet": {
+    "prefix": "leetcode",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "int sol() { return 0; }",
+      "",
+      "int main(int argc, char const *argv[]) {",
+      "  int ans = sol();",
+      "",
+      "  cout << ans << '\\n';",
+      "  // for (const int &a : ans) cout << a << '\\t';",
+      "",
+      "  return 0;",
+      "}"
+    ],
+    "description": "main_snippet"
+  }
+}

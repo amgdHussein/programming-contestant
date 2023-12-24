@@ -1,0 +1,32 @@
+{
+  "typescript_main_snippet": {
+    "prefix": "ts_main",
+    "body": [
+      "import * as fs from 'fs';",
+      "import * as path from 'path';",
+      "",
+      "// Read the input from the file 'input.txt'",
+      "let currentLine = 0;",
+      "const fileContent = fs.readFileSync(path.join(__dirname, 'input.txt'), 'utf8');",
+      "const lines = fileContent.split('\\n').map((line) => line.trim());",
+      "const input = () => lines[currentLine++];",
+      "",
+      "function sol(): void {",
+      // const [x, y, z] = input().split(' ').map(x => parseInt(x));
+      // console.log(x, y, z);
+
+      // const n = parseFloat(input());
+      // console.log(n);
+      "",
+      "}",
+      "",
+      "function main(): void {",
+      "	sol();",
+      "	return;",
+      "}",
+      "",
+      "main();"
+    ],
+    "description": "typescript_main_snippet"
+  }
+}

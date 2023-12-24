@@ -1,0 +1,27 @@
+{
+  "python_main_snippet": {
+    "prefix": "py_main",
+    "body": [
+      "import random",
+      "import sys",
+      "",
+      "import heapq",
+      "from collections import Counter, OrderedDict, ChainMap, namedtuple, deque, defaultdict",
+      "from bisect import bisect_left, bisect_right  # c++ lowerbound, upperbound",
+      "",
+      "if __debug__:",
+      "    random.seed(0)",
+      "    sys.stdin = open('\\\\'.join([sys.path[0], 'input.txt']), 'r')",
+      "    input = sys.stdin.readline",
+      "    # print = sys.stdout.write",
+      "",
+      "def main():",
+      "    pass",
+      "",
+      "if __name__ == '__main__':",
+      "    main()",
+      ""
+    ],
+    "description": "python_main_snippet"
+  }
+}
